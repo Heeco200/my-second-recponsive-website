@@ -1,0 +1,517 @@
+/* Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Menu */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+img {
+    width: 100%;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(220, 20, 60, 0.414);
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bannerH {
+    height: 750px;
+}
+
+header {
+    background-image: url(../Kerakli/Kerakli/9.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo h1 {
+    font-family: 'Rubik Wet Paint', cursive;
+    font-weight: 900;
+    font-size: 36px;
+    color: white;
+}
+
+label, input {
+    display: none;
+}
+
+.menu {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    color: black;
+    margin-left: 220px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 16px 20px;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    transition: all .5s;
+}
+
+.menu li a:hover {
+    background-color: rgb(214, 20, 36);
+    color: white;
+    border-radius: 10px;
+}
+
+.dow button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 5px 15px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.dow button:hover {
+    background-color: gold;
+    color: rgb(84, 84, 84);
+    border: 2px solid gold;
+}
+
+/* Header not menu */
+
+
+.content {
+    color: white;
+}
+
+.content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    margin-bottom: 20px;
+}
+
+.content button {
+    padding: 10px 30px;
+    background-color: #FF5F6DFF;
+    border: 1px solid #FF5F6DFF;
+    border-radius: 5px;
+    color: white;
+    transition: .5s;
+}
+
+.content button:hover {
+    background-color: transparent;
+    color: #FF5F6DFF;
+    border: 1px solid #FF5F6DFF;
+}
+
+/* First */
+
+#first {
+    padding: 50px 0;
+    background-color: #FAF9FFFF;
+}
+
+.img i {
+    font-size: 40px;
+    padding: 25px;
+    transition: .5s;
+}
+
+.img i:hover {
+    transform: rotate(360deg);
+}
+
+.coontent h3 {
+    font-size: 24px;
+}
+
+.booox {
+    display: flex;
+    margin: 30px 0;
+}
+
+/* Thecond */
+
+.thecond {
+    padding: 50px 0;
+}
+
+.boox2 img {
+    width: 80%;
+    display: flex;
+    margin-top: 70px;
+}
+
+.box2 {
+    margin-top: 70px;
+}
+
+.box2 h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.box2 .sucsess {
+    margin-bottom: 25px;
+}
+
+.box2 .sucses {
+    margin-bottom: 30px;
+}
+
+.box2 button {
+    padding: 10px 30px;
+    color: white;
+    background-color: #FF5F6DFF;
+    border: 1px solid #FF5F6DFF;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.box2 button:hover {
+    color: #FF5F6DFF;
+    background-color: white;
+}
+
+.box2 button i {
+    margin-right: 5px;
+}
+
+/* Threth */
+
+#thrid {
+    padding: 60px 0;
+    background-color: #FAF9FFFF;
+}
+
+.bbox {
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.bbox:hover {
+    border: 1px solid #FE606DFF;
+    background-color: #FE606DFF;
+    color: white;
+}
+
+.bbox:hover p {
+    color: white;
+}
+
+.bbox:hover i {
+    border: 1px solid #FE606DFF;
+    background-color: #FFFFFF;
+    color: black;
+    transition: .5s;
+}
+
+.bbox i:hover {
+    transform: rotate(-360deg);
+}
+
+.icon2 {
+    text-align: center;
+}
+
+.icon2 i {
+    font-size: 32px;
+    border: 1px solid #FE606DFF;
+    padding: 20px 20px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    transition: .5s;
+}
+
+.icon2 i:hover {
+    background-color: #FE606DFF;
+    color: white;
+}
+
+.commit {
+    text-align: center;
+}
+
+.commit h3 {
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.commit p {
+    font-size: 16px;
+    color: grey;
+    margin-bottom: 35px;
+    transition: .5s;
+}
+
+/* Fourth */
+
+#fourth {
+    padding: 40px 0;
+    background-color: white;
+}
+
+.boxx1 {
+    text-align: center;
+}
+
+.boxx1 p {
+    margin-bottom: 50px;
+}
+
+.price {
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    transition: .5s;
+}
+
+.price p {
+    color: grey;
+    transition: .5s;
+}
+
+.price ul li {
+    list-style: none;
+}
+
+.price li h3 {
+    font-size: 38px;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.price li h2 {
+    font-size: 34px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.price p {
+    margin: 10px 0;
+}
+
+.but button {
+    margin-top: 60px;
+    padding: 14px 20px;
+    border: 1px solid black;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom: none;
+    background-color: white;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.price:hover {
+    background-color: #FF5F6DFF;
+    color: white;
+    border: 1px solid white;
+}
+
+.price:hover p {
+    color: white;
+}
+
+.price:hover button {
+    background-color: #FF5F6DFF;
+    color: white;
+    border: 1px solid white;
+    border-bottom: none;
+}
+
+/* Fifeth */
+
+#fifeth {
+    padding: 60px 0;
+}
+
+.team {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.team h1 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.team p {
+    color: grey;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+/* Sixth */
+
+/* Last */
+
+#last {
+    background-image: url(../Kerakli/Kerakli/5.webp);
+    padding: 100px 0;
+    color: white;
+}
+
+.boooox {
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.iccon {
+    font-size: 28px;
+    padding: 5px 20px;
+}
+
+.lastg ul {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.lastg ul li {
+    font-size: 24px;
+    padding: 10px 20px;
+    margin: 0 20px;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    color: black;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.lastg ul li i {
+    color: black;
+}
+
+.corparation {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Respansivlik */
+
+@media (max-width: 768px) {
+    nav {
+        padding: 15px 8px;
+    }
+
+    .menu {
+        position: fixed;
+        width: 50vw;
+        height: 100vh;
+        background-color: rgba(255, 125, 39, 0.527);
+        display: block;
+        top: 0;
+        right: -100%;
+        padding: 70px 0;
+        transition: .5s;
+        z-index: 19;
+    }
+
+    .menu ul {
+        display: block;
+        text-align: center;
+        margin: 0;
+    }
+
+    .menu ul li {
+        margin: 25px 0;
+    }
+
+    .dow {
+        text-align: center;
+    }
+
+    label {
+        display: block;
+        cursor: pointer;
+    }
+
+    label span {
+        display: block;
+        width: 48px;
+        height: 4px;
+        margin: 5px 0;
+        background-color: white;
+        transition: all .5s;
+    }
+
+    label span:first-child {
+        transform-origin: left;
+    }
+
+    label span:last-child {
+        transform-origin: left;
+    }
+
+    input:checked ~ .menu {
+        right: 0;
+        top: 0;
+    }
+
+    input:checked ~ label {
+        z-index: 21;
+    }
+
+    input:checked ~ label span:first-child {
+        transform: rotate(45deg) translateY(-11px);
+    }
+
+    input:checked ~ label span:last-child {
+        transform: rotate(-45deg) translateY(11px);
+    }
+
+    input:checked ~ label span:nth-child(2) {
+        opacity: 0;
+    }
+
+    header {
+        height: auto;
+        background-position: center;
+    }
+
+    .content {
+        color: white;
+        margin-top: 0;
+    }
+
+    #not-menu {
+        padding-bottom: 50px;
+    }
+
+    .box2 {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .boox2 {
+        margin-bottom: 20px;
+    }
+}
